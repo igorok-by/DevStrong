@@ -1,0 +1,65 @@
+// Bootstrap 4 mixins
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Utils
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+@import "utils/animation";
+
+html {
+  line-height: $mainLineHeight;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+  height: 100%;
+
+  @include media-breakpoint-down(xl) {
+    font-size: 15px;
+  }
+
+  @include media-breakpoint-down(lg) {  // 992px
+    font-size: 14px;
+  }
+
+  @include media-breakpoint-down(md) {  // 768px
+    font-size: 13px;
+  }
+
+  @include media-breakpoint-down(sm) {  // 576px
+    font-size: 12px;
+  }
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: $mainLineHeight;
+  font-family: $mainFont;
+  font-weight: $mainFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $mainFontColor;
+  background-color: $default-color;
+}
+
+
+// Modules
+@import "modules/container";
+@import "modules/header";
+@import "modules/row";
+// @import "modules/brand";
+// @import "modules/btn";
+// @import "modules/carousel";
+// @import "modules/contact";
+// @import "modules/footer";
+// @import "modules/form";
+// @import "modules/icon";
+// @import "modules/logo";
+// @import "modules/popup";
+// @import "modules/section";
+// @import "modules/text";
+// @import "modules/tile";

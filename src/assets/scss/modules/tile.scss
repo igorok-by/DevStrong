@@ -1,0 +1,237 @@
+.tile {
+  position: relative;
+  width: 100%;
+  margin-bottom: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &--h422 {
+    height: rem(422);
+  }
+
+  &--h371 {
+    height: rem(371);
+  }
+
+  &--hover {
+    cursor: pointer;
+  }
+
+  @for $i from 7 through 12 {
+    
+    &--#{$i} {
+      background-image: linear-gradient(rgba($dark-color, .6), rgba($dark-color, .6)), url(/assets/img/tile-#{$i}.jpg);
+    }
+  }
+
+  &--9 {
+    background-size: contain;
+  }
+
+  &__wrap {
+    margin-top: 8.5vw;
+  }
+
+  &__front {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: rem(55) 6.95vw rem(55) 3.85vw;
+  }
+  
+  &__open {
+    color: #f9fbfb;
+    font-size: rem(18);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: rem(0.72);
+    opacity: 0.8;
+    transition: $default-transition;
+    cursor: pointer;
+  }
+  
+  &__open-arr {
+    position: relative;
+    top: rem(-1);
+    display: inline-block;
+    width: rem(22);
+    height: rem(14);
+    margin-left: rem(15);
+    fill: $default-color;
+    opacity: 0.7;
+    transition: $long-transition;
+    
+    use {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__open:hover {
+    color: $success-color;
+    opacity: 1;
+    text-shadow: 0 0 2px $success-color;
+  }
+
+  &__open:hover &__open-arr {
+    fill: $success-color;
+    opacity: 1;
+    animation: left-to-right 1s ease-in-out infinite;    
+  }
+
+  &__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: rem(60) 7.99vw rem(55) 4.5vw;
+    background-color: rgba($success-color, .97);
+    opacity: 0;
+    visibility: hidden;
+    transition: $long-transition;
+  }
+
+  &__back--little {
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+  }
+
+  &__back--shown {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__close {
+    position: absolute;
+    left: 4.17vw;
+    bottom: rem(50);
+    width: rem(27);
+    height: rem(27);
+    padding: rem(5);
+    fill: rgba($dark-color, 0.4);
+    transition: $default-transition;
+    cursor: pointer;
+    
+    use {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__close:hover {
+    fill: $dark-color;
+    transform: scale(1.4);
+  }
+
+  &__close--little {
+    left: 3.17vw;
+  }
+
+  &__info {
+    position: absolute;
+    bottom: 1.05vw;
+    min-height: 16.74vw;
+    width: calc(100% - 2.36vw);
+    margin-left: 1.18vw;
+    margin-right: 1.18vw;
+    padding: rem(35) 3.6vw rem(38) 2.6vw;
+    box-shadow: rem(3) rem(6) rem(16) rgba(20, 20, 21, 0.18);
+    background-color: rgba($success-color, 0.98);
+    visibility: hidden;
+    opacity: 0;
+    transition: $long-transition;
+    cursor: default;
+  }
+
+  &:hover &__info {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &__info-arr {
+    position: absolute;
+    top: rem(-19);
+    left: rem(11);
+    width: rem(42);
+    height: rem(37);
+    fill: rgba(#71f6ec, 0.97);
+    
+    use {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    margin-left: rem(-8);
+  }
+
+  @include media-breakpoint-down(lg) {
+    
+    &__info {
+      min-height: unset;
+      bottom: 0.5vw;
+      width: calc(100% - 1vw);
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+      padding: 2vw 1.3vw 1.6vw;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+
+    @for $i from 7 through 12 {
+    
+      &--#{$i} {
+        height: 50vw;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+
+    display: flex;
+    justify-content: center;
+
+    @for $i from 7 through 12 {
+    
+      &--#{$i} {
+        height: 80vw;
+        min-height: 360px;
+      }
+    }
+
+    &__front {
+      padding-left: 6vw;
+      padding-right: 6vw;
+    }
+      
+    &__back {
+      padding-left: 6vw;
+      padding-right: 6vw;
+    }
+
+    &__close {
+      left: 6vw;
+      bottom: rem(35);
+    }
+
+    &__info {
+      bottom: 2vw;
+      width: calc(100% - 4vw);
+      max-width: 350px;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5vw 4vw 6vw;
+    }
+
+    &__info-arr {
+      left: rem(30);
+    }
+  }
+}
