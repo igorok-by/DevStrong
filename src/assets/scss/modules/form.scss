@@ -1,63 +1,38 @@
 .form {
-  height: 100%;
-  padding: 1.05vw 2.1vw 2.65vw;
-  box-shadow: 0 0 rem(30) rgba(21, 21, 21, 0.12);
-  background-color: rgba(#021623, 0.71);
+  position: relative;
+  width: 100%;
+}
 
-  &--mr13 {
-    margin-right: vw(13);
-  }
+.form__input {
+  width: 100%;
+  padding: rem(15) rem(25) rem(14);
+  font-size: rem(14);
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  transition: $def-transition;
+}
 
-  &__input,
-  &__textarea {
-    width: 100%;
-    padding: rem(30) rem(5) rem(15);
-    color: $default-color;
-    font-size: rem(15);
-    background-color: transparent;
-    border-bottom: 1px solid $default-color;
-    transition: $default-transition;
-  }
+.form__input::placeholder {
+  color: $mainFontColor;
+  font-size: rem(14);
+  letter-spacing: rem(0.7);
+}
 
-  &__textarea {
-    height: rem(135);
-    margin-bottom: 2.64vw;
-  }
+.form__input:focus,
+.form__input:active {
+  border-color: $primary-color;
+  outline: none;
+}
 
-  &__input::placeholder,
-  &__textarea::placeholder {
-    color: rgba($default-color, 0.6);
-  }
-
-  &__input:focus,
-  &__input:active,
-  &__textarea:focus,
-  &__textarea:active {
-    border-color: $success-color;
-    color: $success-color;
-    outline: none;
-  }
-
-  @include media-breakpoint-down(lg) {
-
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-  }
-
-  @include media-breakpoint-down(xs) {
-
-    height: auto;
-    margin-top: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
-      
-    &--mr13 {
-      margin-right: 0;
-    }
-
-    &__input,
-    &__textarea {
-      font-size: rem(20);
-    }
+.form__submit {
+  background: none;
+  
+  &--search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 57px;
+    height: 41px;
+    padding: 11px 19px;
   }
 }

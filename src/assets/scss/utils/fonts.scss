@@ -1,198 +1,198 @@
 // Panton
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-ExtraBold.eot');
+  src: url('/assets/fonts/Panton/Panton-ExtraBold.eot');
   src: local('Panton ExtraBold'), local('Panton-ExtraBold'),
-    url('/assets/fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-ExtraBold.woff') format('woff'),
-    url('/assets/fonts/Panton-ExtraBold.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-ExtraBold.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-RegularItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-RegularItalic.eot');
   src: local('Panton Regular Italic'), local('Panton-RegularItalic'),
-    url('/assets/fonts/Panton-RegularItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-RegularItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-RegularItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-RegularItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-RegularItalic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-ThinItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-ThinItalic.eot');
   src: local('Panton Thin Italic'), local('Panton-ThinItalic'),
-    url('/assets/fonts/Panton-ThinItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-ThinItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-ThinItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-ThinItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-ThinItalic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-Bold.eot');
+  src: url('/assets/fonts/Panton/Panton-Bold.eot');
   src: local('Panton Bold'), local('Panton-Bold'),
-    url('/assets/fonts/Panton-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-Bold.woff') format('woff'),
-    url('/assets/fonts/Panton-Bold.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-Bold.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-ExtraLight.eot');
+  src: url('/assets/fonts/Panton/Panton-ExtraLight.eot');
   src: local('Panton ExtraLight'), local('Panton-ExtraLight'),
-    url('/assets/fonts/Panton-ExtraLight.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-ExtraLight.woff') format('woff'),
-    url('/assets/fonts/Panton-ExtraLight.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-ExtraLight.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-ExtraBoldItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-ExtraBoldItalic.eot');
   src: local('Panton ExtraBold Italic'), local('Panton-ExtraBoldItalic'),
-    url('/assets/fonts/Panton-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-ExtraBoldItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-ExtraBoldItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-ExtraBoldItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-ExtraBoldItalic.ttf') format('truetype');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-ExtraLightItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-ExtraLightItalic.eot');
   src: local('Panton ExtraLight Italic'), local('Panton-ExtraLightItalic'),
-    url('/assets/fonts/Panton-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-ExtraLightItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-ExtraLightItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-ExtraLightItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-ExtraLightItalic.ttf') format('truetype');
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-Thin.eot');
+  src: url('/assets/fonts/Panton/Panton-Thin.eot');
   src: local('Panton Thin'), local('Panton-Thin'),
-    url('/assets/fonts/Panton-Thin.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-Thin.woff') format('woff'),
-    url('/assets/fonts/Panton-Thin.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-Thin.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-Thin.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-SemiBold.eot');
+  src: url('/assets/fonts/Panton/Panton-SemiBold.eot');
   src: local('Panton SemiBold'), local('Panton-SemiBold'),
-    url('/assets/fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-SemiBold.woff') format('woff'),
-    url('/assets/fonts/Panton-SemiBold.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-SemiBold.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-Heavy.eot');
+  src: url('/assets/fonts/Panton/Panton-Heavy.eot');
   src: local('Panton Heavy'), local('Panton-Heavy'),
-    url('/assets/fonts/Panton-Heavy.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-Heavy.woff') format('woff'),
-    url('/assets/fonts/Panton-Heavy.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-Heavy.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-Heavy.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-SemiBoldItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-SemiBoldItalic.eot');
   src: local('Panton SemiBold Italic'), local('Panton-SemiBoldItalic'),
-    url('/assets/fonts/Panton-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-SemiBoldItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-SemiBoldItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-SemiBoldItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-BoldItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-BoldItalic.eot');
   src: local('Panton Bold Italic'), local('Panton-BoldItalic'),
-    url('/assets/fonts/Panton-BoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-BoldItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-BoldItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-BoldItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-BoldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-BlackItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-BlackItalic.eot');
   src: local('Panton Black Italic'), local('Panton-BlackItalic'),
-    url('/assets/fonts/Panton-BlackItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-BlackItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-BlackItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-BlackItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-BlackItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-LightItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-LightItalic.eot');
   src: local('Panton Light Italic'), local('Panton-LightItalic'),
-    url('/assets/fonts/Panton-LightItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-LightItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-LightItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-LightItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-Regular.eot');
+  src: url('/assets/fonts/Panton/Panton-Regular.eot');
   src: local('Panton Regular'), local('Panton-Regular'),
-    url('/assets/fonts/Panton-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-Regular.woff') format('woff'),
-    url('/assets/fonts/Panton-Regular.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-Regular.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-HeavyItalic.eot');
+  src: url('/assets/fonts/Panton/Panton-HeavyItalic.eot');
   src: local('Panton Heavy Italic'), local('Panton-HeavyItalic'),
-    url('/assets/fonts/Panton-HeavyItalic.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-HeavyItalic.woff') format('woff'),
-    url('/assets/fonts/Panton-HeavyItalic.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-HeavyItalic.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-HeavyItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-Light.eot');
+  src: url('/assets/fonts/Panton/Panton-Light.eot');
   src: local('Panton Light'), local('Panton-Light'),
-    url('/assets/fonts/Panton-Light.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-Light.woff') format('woff'),
-    url('/assets/fonts/Panton-Light.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-Light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-Light.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Panton';
-  src: url('/assets/fonts/Panton-Black.eot');
+  src: url('/assets/fonts/Panton/Panton-Black.eot');
   src: local('Panton Black'), local('Panton-Black'),
-    url('/assets/fonts/Panton-Black.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/Panton-Black.woff') format('woff'),
-    url('/assets/fonts/Panton-Black.ttf') format('truetype');
+    url('/assets/fonts/Panton/Panton-Black.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Panton/Panton-Black.woff') format('woff'),
+    url('/assets/fonts/Panton/Panton-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }

@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav__item {
+  position: relative;
+  color: $mainFontColor;
+  font-size: rem(14);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: rem(0.7);
+  transition: $def-transition;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    transform: translateX(-50%) rotate(45deg);
+    background-color: $default-color;
+    opacity: 0;
+    transition: $def-transition;
+  }
+
+  &:hover {
+    color: $primary-bckgr;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+}

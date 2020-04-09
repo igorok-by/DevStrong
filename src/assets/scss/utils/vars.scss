@@ -34,8 +34,8 @@ $dark-color              : #000000;
 $default-color           : #ffffff;
 $primary-color           : #0086c0;
 $success-color           : #00963f;
-$danger-color            : #ff005d;
-$warning-color           : #df7f35;
+// $danger-color            : #ff005d;
+// $warning-color           : #df7f35;
 
 // Background
 $primary-bckgr           : #009ee2;
@@ -54,5 +54,5 @@ $light-bckgr             : #efefef;
 // $border-light            : #E4E7ED;
 
 // Transition
-$default-transition      : all .3s cubic-bezier(0.25, 0.1, 0.25, 1);
+$def-transition      : all .3s cubic-bezier(0.25, 0.1, 0.25, 1);
 $long-transition         : all .8s cubic-bezier(0.25, 0.1, 0.25, 1);
