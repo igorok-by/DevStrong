@@ -2,12 +2,12 @@
   position: relative;
   width: 100%;
 
-  &--banner {
-    margin-top: -17px;
-  }
-
   &--banner.slick-dotted.slick-slider {
     margin-top: -17px;
+    margin-bottom: 0;
+  }
+
+  &--best.slick-dotted.slick-slider {
     margin-bottom: 0;
   }
 }
@@ -91,5 +91,39 @@
   button {
     padding: rem(5);
     background-color: transparent;
+  }
+}
+
+.carousel-arrows {
+  display: flex;
+}
+
+.carousel__arr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  background-color: $mainFontColor;
+  border-radius: 50%;
+  transition: $def-transition;
+
+  img {
+    width: 5px;
+    height: 8px;
+  }
+  
+  &:hover {
+    transform: scale(1.2);
+  }
+  
+  &--left {
+    margin-left: 0;
+    transform: rotate(180deg);
+
+    &:hover {
+      transform: rotate(180deg) scale(1.2);
+    }
   }
 }

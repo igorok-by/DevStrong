@@ -1,3 +1,88 @@
 .section {
-  padding-top: 30px;
+  position: relative;
+  padding-top: 50px;
+
+  &--pt30 {
+    padding-top: 30px;
+  }
+
+  &--light {
+    padding-bottom: 43px;
+    background-color: $light-bckgr;
+  }
+
+  &--light::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 338px;
+    background-color: $default-color;
+  }
+}
+
+.section__border {
+  width: 100%;
+  height: 1px;
+  margin-top: 100px;
+  background-color: $light-bckgr;
+
+  &--mt50 {
+    margin-top: 50px;
+  }
+
+}
+
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+.section__title {
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: $mainFontColor;
+  
+  h2 {
+    margin-right: 27px;
+    font-size: rem(36);
+    font-weight: 800;
+    letter-spacing: rem(1.8);
+  }
+
+  a {
+    margin-bottom: 5px;
+    color: $primary-bckgr;
+    font-size: rem(11);
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: rem(2.2);
+    transition: $def-transition;
+  }
+
+  a:hover {
+    color: $success-color;
+  }
+
+  &--about {
+    margin-top: 95px;
+    margin-bottom: 55px;
+
+    h2 {
+      letter-spacing: unset;
+    }
+  }
+}
+
+.section__text {
+  margin-bottom: 27px;
+  margin-right: 12px;
+  font-size: rem(14);
+  font-weight: 600;
+  line-height: rem(25);
+  letter-spacing: rem(0.35);
 }

@@ -10,6 +10,11 @@
   border: 1px solid #dddddd;
   border-radius: 3px;
   transition: $def-transition;
+
+  &--email {
+    padding: rem(21) rem(32) rem(22);
+    border: none;
+  }
 }
 
 .form__input::placeholder {
@@ -25,7 +30,15 @@
 }
 
 .form__submit {
-  background: none;
+  padding-left: 57px;
+  padding-right: 57px;
+  color: $default-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: rem(3.2);
+  border-radius: 0 3px 3px 0;
+  background-image: linear-gradient(to left, #0187c1 0%, #3ac0ef 100%);
+  cursor: pointer;
   
   &--search {
     position: absolute;
@@ -34,6 +47,20 @@
     width: 57px;
     height: 41px;
     padding: 11px 19px;
-    cursor: pointer;
+    background: none;
   }
+}
+
+.form__title {
+  margin-bottom: 34px;
+  font-size: rem(24);
+  font-weight: 700;
+  text-align: center;
+}
+
+.form__wrap {
+  display: flex;
+  box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+  background-color: $default-color;
+  border-radius: 3px;
 }
