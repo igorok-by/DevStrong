@@ -48,6 +48,8 @@ body {
 
 
 // Modules
+@import "modules/btn";
+@import "modules/carousel";
 @import "modules/catalog";
 @import "modules/container";
 @import "modules/form";
@@ -55,12 +57,10 @@ body {
 @import "modules/logo";
 @import "modules/nav";
 @import "modules/row";
+@import "modules/section";
+@import "modules/tile";
 // @import "modules/brand";
-// @import "modules/btn";
-// @import "modules/carousel";
 // @import "modules/contact";
 // @import "modules/footer";
 // @import "modules/icon";
-// @import "modules/section";
 // @import "modules/text";
-// @import "modules/tile";
