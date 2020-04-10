@@ -13,3 +13,27 @@
     color: $success-color;
   }
 }
+
+.logo--light {
+  display: block;
+  padding-bottom: 48px;
+  color: #6d6d6d;
+
+  &:hover,
+  &:hover .logo__descr {
+    color: $primary-color;
+  }
+  
+  .logo__descr {
+    display: inline-block;
+    max-width: 210px;
+    margin-top: 7px;
+    color: rgba($color: $default-color, $alpha: 0.5);
+    font-size: rem(13);
+    font-weight: 600;
+    line-height: rem(20);
+    text-transform: unset;
+    letter-spacing: rem(1.06);
+    transition: $long-transition;
+  }
+}
