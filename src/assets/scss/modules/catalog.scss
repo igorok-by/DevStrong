@@ -1,23 +1,29 @@
 .cat-main {
   position: relative;
+
   display: flex;
   align-items: center;
   padding: 21px 17px;
-  color: $default-color;
-  font-size: rem(18);
+
   font-weight: 600;
+  font-size: rem(18);
+  color: $default-color;
   letter-spacing: rem(0.9);
-  border-radius: 3px;
+
   background-image: linear-gradient(to left, #0187c1 0%, #3ac0ef 100%);
-  transition: $long-transition;
+  border-radius: 3px;
   cursor: pointer;
+
+  transition: $long-transition;
 
   &::after {
     content: "";
     position: absolute;
     right: 23px;
+
     width: 7px;
     height: 9px;
+
     background: center / cover no-repeat url(/assets/img/arrow-right-2.png);
     transform: rotate(90deg);
     opacity: 0.3;
@@ -39,6 +45,7 @@
   span {
     width: 100%;
     height: 1.5px;
+
     background-color: $default-color;
   }
 }
@@ -47,44 +54,54 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+
   background-color: $light-bckgr;
   border-radius: 3px;
 }
 
 .cat__item {
   position: relative;
+
   display: flex;
-  align-items: center;
   flex-grow: 1;
+  align-items: center;
   min-height: 45px;
   padding: 10px 24px;
-  color: $mainFontColor;
-  font-size: rem(15);
+
   font-weight: 700;
+  font-size: rem(15);
+  color: $mainFontColor;
   letter-spacing: rem(0.75);
-  transition: $def-transition;
+
   cursor: pointer;
+
+  transition: $def-transition;
 
   &:not(:last-child) {
     border-bottom: 1px solid $default-color;
   }
-  
+
   &::before {
     content: "";
+
     width: 10px;
     height: 10px;
     margin-right: 25px;
+
     border: 3px solid $mainFontColor;
     border-radius: 50%;
+
     transition: $def-transition;
   }
-  
+
   &::after {
     content: "";
     position: absolute;
     right: 18px;
+
     width: 7px;
     height: 13px;
+
     background: center / cover no-repeat url(/assets/img/arrow-right-1.png);
   }
 

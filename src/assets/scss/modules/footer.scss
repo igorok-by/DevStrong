@@ -1,15 +1,18 @@
 .footer {
   padding-top: 64px;
+
   background-color: $mainFontColor;
 }
 
 .footer__link {
   display: block;
-  color: rgba($color: $default-color, $alpha: 0.5);
+
+  font-weight: 700;
   font-size: rem(12);
-  font-weight: 600;
+  color: rgba($color: $default-color, $alpha: 0.5);
   text-transform: uppercase;
   letter-spacing: rem(0.6);
+
   transition: $def-transition;
 
   &:not(:last-child) {
@@ -21,8 +24,8 @@
   }
 
   &--primary {
-    color: #009be1;
     font-size: rem(14);
+    color: #009be1;
     text-transform: unset;
     text-decoration: underline;
     letter-spacing: rem(0.14);
@@ -35,33 +38,37 @@
 
 .footer__link-title {
   margin-bottom: 25px;
-  color: $default-color;
+
+  font-weight: 700;
   font-size: rem(12);
-  font-weight: 600;
+  color: $default-color;
   text-transform: uppercase;
   letter-spacing: rem(2.4);
 }
 
 .footer__copyright {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-height: 110px;
   margin-top: 65px;
   padding: 20px 0;
+
   border-top: 1px solid rgba($color: $default-color, $alpha: 0.1);
 
   p {
     display: flex;
     align-items: center;
-    color: rgba($color: $default-color, $alpha: 0.5);
+
+    font-weight: 700;
     font-size: rem(11);
-    font-weight: 600;
+    color: rgba($color: $default-color, $alpha: 0.5);
     letter-spacing: rem(0.17);
   }
 
   span {
     margin-right: 7px;
+
     font-size: rem(17);
   }
 }

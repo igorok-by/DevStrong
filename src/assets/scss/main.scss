@@ -8,42 +8,30 @@
 @import "utils/mixins";
 @import "utils/fonts";
 @import "utils/reset";
-@import "utils/animation";
 
 html {
-  line-height: $mainLineHeight;
-	font-size: $mainFontSize;
-	color: $mainFontColor;
   height: 100%;
 
-  @include media-breakpoint-down(xl) {
-    font-size: 15px;
-  }
-
-  @include media-breakpoint-down(lg) {  // 992px
-    font-size: 14px;
-  }
-
-  @include media-breakpoint-down(md) {  // 768px
-    font-size: 13px;
-  }
-
-  @include media-breakpoint-down(sm) {  // 576px
-    font-size: 12px;
-  }
+  font-size: $mainFontSize;
+  line-height: $mainLineHeight;
+  color: $mainFontColor;
 }
 
 body {
   position: relative;
+
   margin: 0;
   padding: 0;
+
+  font-weight: $mainFontWeight;
   line-height: $mainLineHeight;
   font-family: $mainFont;
-  font-weight: $mainFontWeight;
+  color: $mainFontColor;
+
+  background-color: $default-color;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $mainFontColor;
-  background-color: $default-color;
 }
 
 
@@ -60,7 +48,3 @@ body {
 @import "modules/row";
 @import "modules/section";
 @import "modules/tile";
-// @import "modules/brand";
-// @import "modules/contact";
-// @import "modules/icon";
-// @import "modules/text";

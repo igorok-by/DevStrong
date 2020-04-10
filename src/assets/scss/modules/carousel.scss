@@ -1,5 +1,6 @@
 .carousel {
   position: relative;
+
   width: 100%;
 
   &--banner.slick-dotted.slick-slider {
@@ -15,14 +16,18 @@
 .carousel__item {
   position: relative;
   z-index: 2;
+
   height: 409px;
   padding: 69px 30px 35px 42px;
+
   color: $default-color;
+
   background: center / cover no-repeat url(/assets/img/backgrounds/bg-1.png);
   border-radius: 5px;
-  
+
   &-wrap {
     position: relative;
+
     margin-top: 17px;
     margin-bottom: 30px;
   }
@@ -31,31 +36,36 @@
     position: absolute;
     bottom: -27px;
     z-index: 1;
+
     width: 100%;
     height: 67px;
+
     background: center / cover no-repeat url(/assets/img/shadows/shadow-1.png);
   }
-  
+
   &-title {
     max-width: 330px;
     margin-bottom: rem(23);
-    font-size: rem(40);
+
     font-weight: 800;
+    font-size: rem(40);
     line-height: rem(50);
     text-transform: uppercase;
     letter-spacing: rem(2);
   }
-  
+
   &-descr {
     margin-bottom: rem(13);
-    color: #4bd1fe;
-    font-size: rem(22);
+
     font-weight: 600;
+    font-size: rem(22);
+    color: #4bd1fe;
     letter-spacing: rem(1.1);
   }
-  
+
   &-price {
     margin-bottom: rem(29);
+
     font-size: rem(30);
   }
 }
@@ -68,10 +78,12 @@
 
 .carousel__dots {
   position: absolute;
+  bottom: 67px;
+  left: 43px;
+
   display: flex;
   justify-content: center;
-  left: 43px;
-  bottom: 67px;
+
   font-size: 0;
   color: transparent;
 
@@ -79,8 +91,10 @@
     width: 10px;
     height: 10px;
     margin-right: 20px;
+
     border: 3px solid $default-color;
     border-radius: 50%;
+
     transition: $long-transition;
   }
 
@@ -90,6 +104,7 @@
 
   button {
     padding: rem(5);
+
     background-color: transparent;
   }
 }
@@ -100,26 +115,29 @@
 
 .carousel__arr {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 25px;
   height: 25px;
   margin-left: 5px;
+
   background-color: $mainFontColor;
   border-radius: 50%;
+
   transition: $def-transition;
 
   img {
     width: 5px;
     height: 8px;
   }
-  
+
   &:hover {
     transform: scale(1.2);
   }
-  
+
   &--left {
     margin-left: 0;
+
     transform: rotate(180deg);
 
     &:hover {

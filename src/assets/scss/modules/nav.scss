@@ -1,17 +1,19 @@
 .nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   height: 100%;
 }
 
 .nav__item {
   position: relative;
-  color: $mainFontColor;
-  font-size: rem(14);
+
   font-weight: 700;
+  font-size: rem(14);
+  color: $mainFontColor;
   text-transform: uppercase;
   letter-spacing: rem(0.7);
+
   transition: $def-transition;
 
   &::before {
@@ -19,11 +21,14 @@
     position: absolute;
     top: -32px;
     left: 50%;
+
     width: 15px;
     height: 15px;
-    transform: translateX(-50%) rotate(45deg);
+
     background-color: $default-color;
+    transform: translateX(-50%) rotate(45deg);
     opacity: 0;
+
     transition: $def-transition;
   }
 

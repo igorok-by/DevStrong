@@ -1,25 +1,30 @@
 .form {
   position: relative;
+
   width: 100%;
 }
 
 .form__input {
   width: 100%;
   padding: rem(15) rem(25) rem(14);
+
   font-size: rem(14);
+
   border: 1px solid #dddddd;
   border-radius: 3px;
+
   transition: $def-transition;
 
   &--email {
     padding: rem(21) rem(32) rem(22);
+
     border: none;
   }
 }
 
 .form__input::placeholder {
-  color: $mainFontColor;
   font-size: rem(14);
+  color: $mainFontColor;
   letter-spacing: rem(0.7);
 }
 
@@ -30,37 +35,43 @@
 }
 
 .form__submit {
-  padding-left: 57px;
   padding-right: 57px;
-  color: $default-color;
+  padding-left: 57px;
+
   font-weight: 700;
+  color: $default-color;
   text-transform: uppercase;
   letter-spacing: rem(3.2);
-  border-radius: 0 3px 3px 0;
+
   background-image: linear-gradient(to left, #0187c1 0%, #3ac0ef 100%);
+  border-radius: 0 3px 3px 0;
   cursor: pointer;
-  
+
   &--search {
     position: absolute;
     top: 0;
     right: 0;
+
     width: 57px;
     height: 41px;
     padding: 11px 19px;
+
     background: none;
   }
 }
 
 .form__title {
   margin-bottom: 34px;
-  font-size: rem(24);
+
   font-weight: 700;
+  font-size: rem(24);
   text-align: center;
 }
 
 .form__wrap {
   display: flex;
-  box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+
   background-color: $default-color;
   border-radius: 3px;
+  box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
 }

@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   height: 100%;
-  
+
   &--main {
     height: 45px;
   }
@@ -36,10 +36,12 @@
 .header__link {
   display: flex;
   align-items: center;
-  color: $default-color;
+
   font-size: rem(14);
   line-height: rem(25);
+  color: $default-color;
   letter-spacing: rem(0.35);
+
   transition: $def-transition;
 
   &:not(:first-child) {
@@ -48,9 +50,11 @@
 
   &:not(:last-child)::after {
     content: "";
+
     width: 7px;
     height: 7px;
     margin-left: 29px;
+
     border: 2px solid #6a6a6a;
     border-radius: 50%;
   }
@@ -67,23 +71,25 @@
   height: 100%;
 
   p {
-    color: $default-color;
     font-size: rem(13);
     line-height: rem(25);
+    color: $default-color;
     letter-spacing: rem(0.33);
   }
-  
+
   .header__tel {
     margin-left: 30px;
-    color: $primary-bckgr;
+
     font-weight: 700;
     font-size: rem(20);
+    color: $primary-bckgr;
     letter-spacing: rem(0.5);
   }
 }
 
 .header__misc {
   position: relative;
+
   margin-right: 18px;
   margin-left: 18px;
 
@@ -104,8 +110,9 @@
 
   span {
     position: absolute;
-    color: $primary-bckgr;
     top: -4px;
     right: -12px;
+
+    color: $primary-bckgr;
   }
 }
