@@ -81,6 +81,15 @@
   width: 306px;
   height: 71px;
   background: center / cover no-repeat url(/assets/img/shadows/shadow-2.png);
+
+  &--about {
+    left: 7px;
+    bottom: -29px;
+    width: 527px;
+    height: 71px;
+    transform: none;
+    background: center / cover no-repeat url(/assets/img/shadows/shadow-4.png);
+  }
 }
 
 .tile__descr {
